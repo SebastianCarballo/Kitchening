@@ -37,7 +37,7 @@ text-align: center;
 /* Tablet */
 
 @media (min-width: 460px){
-    .home main button{
+    .home header button{
         display: none;
     }
 }

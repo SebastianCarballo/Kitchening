@@ -61,6 +61,7 @@
 @media (min-width: 460px){
     .home main .banner{
         display: block;
+        width: 100%;
     }
     .home main .banner img{
         width: 100%;
