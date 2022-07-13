@@ -9,7 +9,7 @@
 .home main section article{
     margin: 20px 0;
 }
-.home main section article{
+.home main section .image{
     position: relative;
 }
 
@@ -46,7 +46,8 @@
     text-align: center;
     /* opacity: 75%; */
     position:absolute;
-    top:20%;
+    top:40%;
+    margin: 0;
     /* padding: 10px 165px; */
     width: 100%;
     background-color: var(--colorTransparente);
@@ -65,5 +66,24 @@
     }
     .home main .banner img{
         width: 100%;
+    }
+    .home main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .home main section article{
+        width: 48%;
+    }
+}
+
+
+@media (min-width: 768px){
+    .home {
+        max-width: 1180px;
+    }
+    .home main section article{
+        width: 32%;
     }
 }
