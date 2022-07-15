@@ -51,18 +51,17 @@ text-align: center;
     }
 
     .home header ul li{
-        width: 15%;
+        width: 16%;
         font-size: 0.5rem;
+    }
+    .home header ul li:hover{
+background-color: var(--colorRojo);
     }
 }
 
 @media (min-width: 560px){
     .home header ul li{
-        width: 16%;
         font-size: 68%;
     }
 }
 
-@media (min-width: 780px){
-
-}
